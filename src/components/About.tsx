@@ -6,7 +6,7 @@ const About = () => {
     {
       icon: <Code className="h-8 w-8 text-primary" />,
       title: "Innovation Challenge",
-      description: "48 hours to build revolutionary solutions that push the boundaries of technology"
+      description: "24 hours to build revolutionary solutions that push the boundaries of technology"
     },
     {
       icon: <Users className="h-8 w-8 text-primary" />,
@@ -26,15 +26,16 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-background">
-      <div className="container mx-auto px-4">
+    <section id="about" className="py-20 bg-background relative">
+      <div className="absolute inset-0 w-full h-full bg-no-repeat bg-cover bg-center opacity-30 z-0" style={{ backgroundImage: 'url(/assets/about-bg.jpg)' }} />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-glow">
             About <span className="gradient-primary bg-clip-text text-transparent">SYNERGIX</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             SYNERGIX isn't just another hackathon—it's where innovation meets execution. 
-            Join us for an intense 48-hour journey where creativity, technology, and collaboration 
+            Join us for an intense 24-hour journey where creativity, technology, and collaboration 
             converge to create the future.
           </p>
         </div>

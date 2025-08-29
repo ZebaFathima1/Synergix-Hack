@@ -5,66 +5,60 @@ import { Button } from "@/components/ui/button";
 const Team = () => {
   const organizers = [
     {
-      name: "Alex Chen",
-      role: "Event Director",
-      bio: "Former Google engineer, startup founder, and hackathon enthusiast with 10+ years in tech.",
-      avatar: "👨‍💻",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#"
-      }
-    },
-    {
-      name: "Sarah Johnson",
-      role: "Technical Lead",
-      bio: "AI researcher and developer advocate passionate about fostering innovation in tech communities.",
-      avatar: "👩‍🔬",
-      social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#"
-      }
-    },
-    {
-      name: "Marcus Rodriguez",
-      role: "Operations Manager",
-      bio: "Event management expert with experience organizing large-scale tech conferences worldwide.",
-      avatar: "👨‍💼",
-      social: {
-        linkedin: "#",
-        twitter: "#"
-      }
-    },
-    {
-      name: "Emily Zhang",
-      role: "Community Manager",
-      bio: "Developer relations specialist focused on building inclusive and vibrant tech communities.",
+      name: "Punit Pal",
+      role: "Community Head",
+      // bio: "Former Google engineer, startup founder, and hackathon enthusiast with 10+ years in tech.",
       avatar: "👩‍🎨",
       social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#"
+        linkedin: "https://www.linkedin.com/in/punit05/"
       }
     },
     {
-      name: "David Park",
-      role: "Mentorship Coordinator",
-      bio: "Venture capitalist and serial entrepreneur connecting startups with industry mentors.",
-      avatar: "👨‍🏫",
+      name: "Himanshi Pal",
+      role: "Graphics Head",
+      // bio: "AI researcher and developer advocate passionate about fostering innovation in tech communities.",
+      avatar: "👩‍🔬",
       social: {
-        linkedin: "#",
-        twitter: "#"
+        linkedin: "https://www.linkedin.com/in/himanshi-designs/"
       }
     },
     {
-      name: "Lisa Wang",
-      role: "Partnerships Lead",
-      bio: "Corporate partnerships expert specializing in tech industry collaborations and sponsorships.",
+      name: "Prachi Barua",
+      role: "Content Head",
+      // bio: "Event management expert with experience organizing large-scale tech conferences worldwide.",
       avatar: "👩‍💼",
       social: {
-        linkedin: "#",
-        twitter: "#"
+        linkedin: "https://www.linkedin.com/in/prachi-barua-3b4a8429b/"
+      }
+    },
+    {
+      name: "Apoorv Mehrotra",
+      role: "PR and OutReach Head",
+      // bio: "Developer relations specialist focused on building inclusive and vibrant tech communities.",
+      avatar: "👨‍💼",
+      social: {
+        linkedin: "https://www.linkedin.com/in/its-apoorv-/",
+        github: "https://github.com/programmerbeast2004"
+      }
+    },
+    {
+      name: "Nishchay Chaurasia",
+      role: "The OG Technical Head",
+      // bio: "Venture capitalist and serial entrepreneur connecting startups with industry mentors.",
+      avatar: "👨‍💻",
+      social: {
+        linkedin: "https://www.linkedin.com/in/nishchaync-83b8152b0/",
+        github: "https://github.com/DeathSquat"
+      }
+    },
+    {
+      name: "Advay Anand",
+      role: "Sponsorship Head",
+      // bio: "Corporate partnerships expert specializing in tech industry collaborations and sponsorships.",
+      avatar: "👨‍🏫",
+      social: {
+        linkedin: "https://www.linkedin.com/in/advay-anand-a89024277/",
+        github: "https://github.com/advay77"
       }
     }
   ];
@@ -95,9 +89,9 @@ const Team = () => {
                 <div className="text-primary font-medium mb-3">
                   {member.role}
                 </div>
-                <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
+                {/* <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
                   {member.bio}
-                </p>
+                </p> */}
                 <div className="flex justify-center space-x-2">
                   {member.social.linkedin && (
                     <Button variant="outline" size="sm" className="p-2" asChild>
@@ -106,13 +100,13 @@ const Team = () => {
                       </a>
                     </Button>
                   )}
-                  {member.social.twitter && (
+                  {/* {member.social.twitter && (
                     <Button variant="outline" size="sm" className="p-2" asChild>
                       <a href={member.social.twitter} aria-label="Twitter">
                         <Twitter className="h-4 w-4" />
                       </a>
                     </Button>
-                  )}
+                  )} */}
                   {member.social.github && (
                     <Button variant="outline" size="sm" className="p-2" asChild>
                       <a href={member.social.github} aria-label="GitHub">
@@ -127,7 +121,7 @@ const Team = () => {
         </div>
 
         {/* Join the Team */}
-        <div className="text-center">
+        {/* <div className="text-center">
           <div className="gradient-card border-glow rounded-lg p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold mb-4 text-foreground">
               Want to Join Our Team?
@@ -151,7 +145,7 @@ const Team = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

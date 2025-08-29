@@ -138,7 +138,7 @@ const SamuraiLoader = ({ onLoadComplete }: SamuraiLoaderProps) => {
             </span>
           </h2>
           <p className="text-muted-foreground text-sm tracking-wider animate-fade-in" style={{ animationDelay: '1s' }}>
-            HACKATHON 2024
+            HACKATHON 2025
           </p>
         </div>
 

@@ -8,42 +8,42 @@ const Tracks = () => {
       title: "AI & Machine Learning",
       description: "Build intelligent solutions using cutting-edge AI technologies",
       technologies: ["TensorFlow", "PyTorch", "OpenAI API", "Hugging Face"],
-      prize: "$15,000"
+      // prize: "$15,000"
     },
     {
       icon: <Globe className="h-8 w-8 text-primary" />,
       title: "Web3 & Blockchain",
       description: "Create decentralized applications and blockchain solutions",
       technologies: ["Ethereum", "Solidity", "IPFS", "MetaMask"],
-      prize: "$12,000"
+      // prize: "$12,000"
     },
     {
       icon: <Smartphone className="h-8 w-8 text-primary" />,
       title: "Mobile Innovation",
       description: "Develop next-generation mobile applications",
       technologies: ["React Native", "Flutter", "Swift", "Kotlin"],
-      prize: "$10,000"
+      // prize: "$10,000"
     },
     {
       icon: <Shield className="h-8 w-8 text-primary" />,
       title: "Cybersecurity",
       description: "Build tools and solutions for digital security",
       technologies: ["Penetration Testing", "Cryptography", "Security Auditing"],
-      prize: "$10,000"
+      // prize: "$10,000"
     },
     {
       icon: <Zap className="h-8 w-8 text-primary" />,
       title: "IoT & Hardware",
       description: "Create innovative IoT solutions and hardware integrations",
       technologies: ["Arduino", "Raspberry Pi", "Sensors", "Edge Computing"],
-      prize: "$8,000"
+      // prize: "$8,000"
     },
     {
       icon: <Database className="h-8 w-8 text-primary" />,
       title: "Data Science",
       description: "Extract insights and build predictive models from data",
       technologies: ["Python", "R", "Jupyter", "Pandas", "Scikit-learn"],
-      prize: "$8,000"
+      // prize: "$8,000"
     }
   ];
 
@@ -71,7 +71,7 @@ const Tracks = () => {
                   {track.title}
                 </CardTitle>
                 <div className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
-                  {track.prize}
+                  {/* {track.prize} */}
                 </div>
               </CardHeader>
               <CardContent className="pt-0">
@@ -98,7 +98,7 @@ const Tracks = () => {
           ))}
         </div>
 
-        <div className="text-center">
+        {/* <div className="text-center">
           <div className="gradient-card border-glow rounded-lg p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold mb-4 text-foreground">
               Can't Decide? No Problem!
@@ -111,7 +111,7 @@ const Tracks = () => {
               Total Prize Pool: <span className="text-2xl">$63,000+</span>
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -65,7 +65,7 @@ export default {
 				'intense': 'var(--shadow-intense)'
 			},
 			fontFamily: {
-				sans: ['Inter', 'system-ui', 'sans-serif'],
+				sans: ['Orbitron', 'Inter', 'system-ui', 'sans-serif'],
 				mono: ['JetBrains Mono', 'Monaco', 'Consolas', 'monospace'],
 			},
 			borderRadius: {

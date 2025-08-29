@@ -6,25 +6,23 @@ const Rewards = () => {
     {
       position: "1st Place",
       icon: <Trophy className="h-12 w-12 text-yellow-400" />,
-      prize: "$25,000",
+      // prize: "$25,000",
       perks: [
         "Cash Prize",
         "Mentorship Program",
         "Funding Opportunities",
-        "Premium Tech Package",
-        "Conference Tickets"
+        "Premium Tech Package"
       ],
       gradient: "from-yellow-400 to-orange-500"
     },
     {
       position: "2nd Place", 
       icon: <Medal className="h-12 w-12 text-gray-300" />,
-      prize: "$15,000",
+      // prize: "$15,000",
       perks: [
         "Cash Prize",
         "Mentorship Program", 
         "Tech Package",
-        "Conference Tickets",
         "Networking Access"
       ],
       gradient: "from-gray-300 to-gray-500"
@@ -32,11 +30,10 @@ const Rewards = () => {
     {
       position: "3rd Place",
       icon: <Award className="h-12 w-12 text-amber-600" />,
-      prize: "$10,000", 
+      // prize: "$10,000", 
       perks: [
         "Cash Prize",
         "Tech Package",
-        "Conference Tickets",
         "Networking Access",
         "Certificate"
       ],
@@ -47,22 +44,22 @@ const Rewards = () => {
   const specialPrizes = [
     {
       title: "Best Innovation",
-      prize: "$5,000",
+      // prize: "$5,000",
       description: "Most creative and groundbreaking solution"
     },
     {
       title: "People's Choice",
-      prize: "$3,000", 
+      // prize: "$3,000", 
       description: "Voted by participants and attendees"
     },
     {
       title: "Best UI/UX",
-      prize: "$3,000",
+      // prize: "$3,000",
       description: "Outstanding user interface and experience"
     },
     {
       title: "Social Impact",
-      prize: "$5,000",
+      // prize: "$5,000",
       description: "Solution with highest potential social benefit"
     }
   ];
@@ -91,7 +88,7 @@ const Rewards = () => {
                   {prize.position}
                 </CardTitle>
                 <div className={`text-4xl font-bold bg-gradient-to-r ${prize.gradient} bg-clip-text text-transparent`}>
-                  {prize.prize}
+                  {/* {prize.prize} */}
                 </div>
               </CardHeader>
               <CardContent>
@@ -109,7 +106,7 @@ const Rewards = () => {
         </div>
 
         {/* Special Prizes */}
-        <div className="mb-12">
+        {/* <div className="mb-12">
           <h3 className="text-3xl font-bold text-center mb-8 text-foreground">
             Special Category Awards
           </h3>
@@ -121,7 +118,6 @@ const Rewards = () => {
                     {special.title}
                   </h4>
                   <div className="text-2xl font-bold gradient-primary bg-clip-text text-transparent mb-3">
-                    {special.prize}
                   </div>
                   <p className="text-sm text-muted-foreground">
                     {special.description}
@@ -130,7 +126,7 @@ const Rewards = () => {
               </Card>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Additional Perks */}
         <div className="text-center">

@@ -102,12 +102,12 @@ const Sponsors = () => {
               >
                 Sponsor SYNERGIX
               </a>
-              <a 
+              {/* <a 
                 href="#"
                 className="inline-flex items-center justify-center px-6 py-3 border border-primary rounded-lg font-medium text-primary hover:bg-primary/10 transition-all duration-300"
               >
                 Download Prospectus
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

@@ -59,9 +59,11 @@ const Navbar = () => {
                 {item.label}
               </button>
             ))}
-            <Button variant="outline" className="glow-effect">
-              Register Now
-            </Button>
+            <a href="https://unstop.com/" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" className="glow-effect">
+                Register Now
+              </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}

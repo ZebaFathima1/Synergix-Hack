@@ -20,32 +20,8 @@ const FAQ = () => {
       answer: "Bring your laptop, chargers, any hardware you might need, and your creativity! We'll provide meals, snacks, WiFi, and workspace. Don't forget comfortable clothes for the 48-hour journey."
     },
     {
-      question: "Is there a registration fee?",
-      answer: "Early bird registration is $25, regular registration is $50. This covers meals, swag, and all event activities. We also offer need-based scholarships - contact us for more information."
-    },
-    {
       question: "What if I'm a beginner programmer?",
       answer: "Perfect! SYNERGIX welcomes beginners. We have mentors available throughout the event, beginner-friendly workshops, and tracks suitable for all skill levels. It's a great learning opportunity."
-    },
-    {
-      question: "Will there be mentors available?",
-      answer: "Absolutely! We have 20+ industry experts and successful entrepreneurs serving as mentors. They'll be available throughout the event to provide guidance, technical help, and feedback."
-    },
-    {
-      question: "What kind of projects can I build?",
-      answer: "Anything! Web apps, mobile apps, IoT solutions, AI/ML projects, blockchain applications, games, or hardware hacks. As long as it's built during the hackathon, it's eligible."
-    },
-    {
-      question: "Are there any intellectual property concerns?",
-      answer: "You retain full ownership of your project and any intellectual property you create. We encourage open source contributions but it's entirely your choice."
-    },
-    {
-      question: "Will food and accommodation be provided?",
-      answer: "Yes! We provide all meals, snacks, and beverages throughout the event. The venue is open 24/7 with rest areas, but we don't provide overnight accommodation."
-    },
-    {
-      question: "How are projects judged?",
-      answer: "Projects are judged on innovation, technical execution, design, potential impact, and presentation. Each track has specific judges who are experts in that domain."
     }
   ];
 
@@ -80,7 +56,7 @@ const FAQ = () => {
           </Accordion>
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <div className="gradient-card border-glow rounded-lg p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold mb-4 text-foreground">
               Still Have Questions?
@@ -103,7 +79,7 @@ const FAQ = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

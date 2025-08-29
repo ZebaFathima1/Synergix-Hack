@@ -1,12 +1,14 @@
-import { Github, Twitter, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import {Linkedin, Mail, MapPin, Phone, Instagram, MessageCircle} from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   const socialLinks = [
-    { icon: <Twitter className="h-5 w-5" />, href: "#", label: "Twitter" },
-    { icon: <Github className="h-5 w-5" />, href: "#", label: "GitHub" },
-    { icon: <Linkedin className="h-5 w-5" />, href: "#", label: "LinkedIn" },
-    { icon: <Mail className="h-5 w-5" />, href: "mailto:info@synergix.com", label: "Email" }
+    { icon: <Instagram className="h-5 w-5" />, href: "https://www.instagram.com/synergix_hack?igsh=MWJhd2k4YWgxdGVodg==", label: "Instagram" },
+    { icon: <Linkedin className="h-5 w-5" />, href: "https://www.linkedin.com/company/synergix-hacks/", label: "LinkedIn" },
+    { icon: <Mail className="h-5 w-5" />, href: "mailto:info@synergix.com", label: "Email" },
+    {icon: <MessageCircle className="h-5 w-5 text-green-500" />, 
+      href: "https://whatsapp.com/channel/0029Vb78TA9E50UmxVpEW21N", 
+      label: "WhatsApp" }
   ];
 
   const quickLinks = [
@@ -27,8 +29,8 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gradient-card border-t border-border">
-      <div className="container mx-auto px-4 py-12">
+    <footer className="bg-gradient-card border-t border-border relative overflow-hidden">
+      <div className="container mx-auto px-4 py-12 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Logo and Description */}
           <div className="lg:col-span-2">
@@ -42,15 +44,15 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <MapPin className="h-4 w-4 text-primary" />
-                <span>Tech Innovation Hub, Silicon Valley</span>
+                <span>TBA</span>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <Phone className="h-4 w-4 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>Punit Pal (+91 96503 80372)</span>
               </div>
               <div className="flex items-center space-x-3 text-muted-foreground">
                 <Mail className="h-4 w-4 text-primary" />
-                <span>info@synergix.com</span>
+                <span>TBA</span>
               </div>
             </div>
           </div>
@@ -92,9 +94,11 @@ const Footer = () => {
                 ))}
               </div>
               <div>
-                <Button className="gradient-primary glow-effect w-full">
-                  Register Now
-                </Button>
+                <a href="https://chat.whatsapp.com/JpinZ1Tt8JO9q3u0t1BVMR?mode=ems_copy_t" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" className="glow-effect">
+                    Join Community
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
@@ -104,18 +108,7 @@ const Footer = () => {
         <div className="border-t border-border pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-muted-foreground text-sm">
-              © 2024 SYNERGIX. All rights reserved. Built with passion for innovation.
-            </div>
-            <div className="flex space-x-6 text-sm">
-              <button className="text-muted-foreground hover:text-primary transition-colors">
-                Privacy Policy
-              </button>
-              <button className="text-muted-foreground hover:text-primary transition-colors">
-                Terms of Service
-              </button>
-              <button className="text-muted-foreground hover:text-primary transition-colors">
-                Code of Conduct
-              </button>
+              © 2025 SYNERGIX. All rights reserved. Built with ❤️ by Nishchay Chaurasia.
             </div>
           </div>
         </div>

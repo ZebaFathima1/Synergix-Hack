@@ -3,67 +3,51 @@ import { Calendar, Clock, Flag, Trophy } from "lucide-react";
 const Timeline = () => {
   const events = [
     {
-      date: "March 1, 2024",
-      time: "12:00 AM",
-      title: "Registration Opens",
-      description: "Early bird registration with discounted rates",
-      icon: <Flag className="h-5 w-5" />,
-      status: "completed"
-    },
-    {
-      date: "March 10, 2024",
-      time: "11:59 PM",
-      title: "Registration Closes",
-      description: "Last chance to secure your spot",
-      icon: <Clock className="h-5 w-5" />,
-      status: "upcoming"
-    },
-    {
-      date: "March 15, 2024",
-      time: "6:00 PM",
-      title: "Opening Ceremony",
-      description: "Welcome, team formation, and problem statements revealed",
-      icon: <Calendar className="h-5 w-5" />,
-      status: "upcoming"
-    },
-    {
-      date: "March 15, 2024",
-      time: "8:00 PM",
-      title: "Hacking Begins",
-      description: "48 hours of intensive coding and innovation starts",
-      icon: <Clock className="h-5 w-5" />,
-      status: "upcoming"
-    },
-    {
-      date: "March 16, 2024",
-      time: "All Day",
-      title: "Development & Mentorship",
-      description: "Work on your projects with mentor guidance",
-      icon: <Clock className="h-5 w-5" />,
-      status: "upcoming"
-    },
-    {
-      date: "March 17, 2024",
-      time: "6:00 PM",
-      title: "Submission Deadline",
-      description: "Final projects must be submitted",
+      date: "12-13 September, 2025",
+      // time: "12:00 AM",
+      title: "Registration Starts",
+      description: "Registration for Hackathon starts via Unstop",
       icon: <Flag className="h-5 w-5" />,
       status: "upcoming"
     },
     {
-      date: "March 17, 2024",
-      time: "7:00 PM",
-      title: "Presentations",
-      description: "Teams present their solutions to judges",
+      date: "19-20 September, 2025",
+      // time: "11:59 PM",
+      title: "Submission Starts",
+      description: "Submission of Projects Starts",
+      icon: <Clock className="h-5 w-5" />,
+      status: "upcoming"
+    },
+    {
+      date: "17-18 October, 2025",
+      // time: "6:00 PM",
+      title: "Submission Closes",
+      description: "Submission of Projects Ends",
       icon: <Calendar className="h-5 w-5" />,
       status: "upcoming"
     },
     {
-      date: "March 17, 2024",
-      time: "9:00 PM",
-      title: "Closing & Awards",
-      description: "Winners announced and prizes distributed",
-      icon: <Trophy className="h-5 w-5" />,
+      date: "8-9 November, 2025",
+      // time: "8:00 PM",
+      title: "Online Round",
+      description: "Online round (Round-2) of Hackathon",
+      icon: <Clock className="h-5 w-5" />,
+      status: "upcoming"
+    },
+    {
+      date: "15-16 November, 2025",
+      // time: "All Day",
+      title: "Final Offline Round",
+      description: "Final Offline Round (Round-3) of Hackathon",
+      icon: <Clock className="h-5 w-5" />,
+      status: "upcoming"
+    },
+    {
+      date: "16 November, 2025",
+      // time: "6:00 PM",
+      title: "Closing Ceremony",
+      description: "Closing Ceremony (Curtains Down) of Hackathon",
+      icon: <Flag className="h-5 w-5" />,
       status: "upcoming"
     }
   ];
@@ -103,7 +87,7 @@ const Timeline = () => {
                   <div className={`ml-16 md:ml-0 ${index % 2 === 0 ? 'md:mr-8 md:text-right' : 'md:ml-8'} md:w-1/2`}>
                     <div className="gradient-card border-glow rounded-lg p-6 hover:shadow-glow transition-all duration-300">
                       <div className="text-sm text-primary font-medium mb-1">
-                        {event.date} • {event.time}
+                        {event.date} {/* • {event.time} */}
                       </div>
                       <h3 className="text-xl font-bold mb-2 text-foreground">
                         {event.title}
