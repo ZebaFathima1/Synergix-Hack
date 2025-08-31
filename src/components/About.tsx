@@ -27,7 +27,8 @@ const About = () => {
 
   return (
     <section id="about" className="py-20 bg-background relative ">
-    <div className="absolute inset-0 w-full h-full bg-no-repeat bg-cover bg-center opacity-30 z-0" style={{ backgroundImage: 'url("./src/assets/about-bg/opti2.jpg")' }} />
+    <div className="absolute inset-0 w-full h-full bg-no-repeat bg-cover bg-center opacity-30 z-0" 
+    style={{ backgroundImage: 'url("src/assets/opti2.jpg")' }} />
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-glow">
