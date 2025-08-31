@@ -26,8 +26,9 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-background relative">
-      <div className="absolute inset-0 w-full h-full bg-no-repeat bg-cover bg-center opacity-30 z-0" style={{ backgroundImage: 'url(/assets/about-bg.jpg)' }} />
+    <section id="about" className="py-20 bg-background relative ">
+    <div className="absolute inset-0 w-full h-full bg-no-repeat bg-cover bg-center opacity-30 z-0" 
+    style={{ backgroundImage: 'url("/opti2.jpg")' }} />
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-glow">
@@ -42,8 +43,8 @@ const About = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           {features.map((feature, index) => (
-            <Card key={index} className="gradient-card border-glow hover:shadow-glow transition-all duration-300">
-              <CardContent className="p-6 text-center">
+            <Card key={index} className="gradient-card border-glow hover:shadow-glow transition-all duration-300 ">
+              <CardContent className="p-6 text-center ">
                 <div className="mb-4 flex justify-center">
                   {feature.icon}
                 </div>
@@ -58,8 +59,8 @@ const About = () => {
           ))}
         </div>
 
-        <div className="max-w-4xl mx-auto">
-          <div className="gradient-card border-glow rounded-lg p-8 md:p-12">
+        <div className="max-w-4xl mx-auto ">
+          <div className="gradient-card border-glow rounded-lg p-8 md:p-12 bg-opacity-70">
             <h3 className="text-2xl md:text-3xl font-bold mb-6 text-center">
               What Makes SYNERGIX Special?
             </h3>
